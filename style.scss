@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 20px;
+}
+
+p{
+    background-color: plum;
+}
+.conteinainer{
+    border: solid plum;
+    display: flex;
+    justify-content: center;
+}
+.item{
+    background-color: pink;
+    border: solid;
+}
+section{
+    margin: 10px 0;
+}
+.conteinainer1{
+    border: solid blue;
+    display: flex;
+    justify-content: end;
+}
+.container2{
+    border: solid yellow;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container3{
+    border: solid orangered;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container4{
+    border: solid violet;
+    display: flex;
+    justify-content: space-evenly;
+}
